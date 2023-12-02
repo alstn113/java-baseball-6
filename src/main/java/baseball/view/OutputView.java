@@ -1,9 +1,9 @@
 package baseball.view;
 
 public interface OutputView {
-    public void printGameStartMessage();
+    void printGameStartMessage();
 
-    public void printRoundResult();
+    void printRoundResult();
 
-    public void printGameEndMessage();
+    void printGameEndMessage();
 }

@@ -1,7 +1,7 @@
 package baseball.view;
 
 public interface InputView {
-    public String readBaseballNumbers();
+    String readBaseballNumbers();
 
-    public String readRetryOrEnd();
+    String readRetryOrEnd();
 }
